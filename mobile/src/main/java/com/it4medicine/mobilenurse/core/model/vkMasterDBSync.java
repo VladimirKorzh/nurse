@@ -102,8 +102,6 @@ public class vkMasterDBSync {
 
             Log.d("test", p.toJson());
 
-            vkMQ
-
             return null;
         }
     }

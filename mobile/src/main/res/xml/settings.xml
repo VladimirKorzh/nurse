@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Display Settings">
+
+        <CheckBoxPreference android:key="time_format"
+            android:title="Time Format"
+            android:summary="Use 24-hour format"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notification Settings">
+
+        <CheckBoxPreference android:key="vibrate_on_notification"
+            android:title="Vibrate"
+            android:summary="Vibrate on notification"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="General Settings">
+
+        <CheckBoxPreference android:key="sync"
+            android:title="Synchronization"
+            android:summary="on\off"
+            android:defaultValue="true" />
+
+        <EditTextPreference android:key="sync_period"
+            android:title="Synchronization interval "
+            android:summary="seconds between master server syncs"
+            android:defaultValue="60" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
